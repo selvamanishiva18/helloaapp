@@ -84,6 +84,33 @@ button:hover{
     opacity:.85;
     margin-bottom:30px;
 }
+
+#overlay{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.4);
+    justify-content:center;
+    align-items:center;
+}
+
+.popup{
+    width:260px;
+    padding:25px;
+    border-radius:15px;
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.popup p{
+    margin-bottom:20px;
+}
+
+.popup button{
+    color:#2563eb;
+}
 </style>
 
 </head>
@@ -119,6 +146,15 @@ Glad to see you again.
 🚀 Get Started
 </button>
 
+</div>
+
+<div id="overlay">
+<div class="popup">
+<p>Let's build something awesome 🚀</p>
+<button onclick="closePopup()">
+Close
+</button>
+</div>
 </div>
 
 <script src="app.js"></script>
