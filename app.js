@@ -14,5 +14,9 @@ function login() {
 }
 
 function getStarted() {
-    alert("Let's build something awesome, " + document.getElementById("name").innerText + " 🚀");
+    document.getElementById("overlay").style.display = "flex";
+}
+
+function closePopup() {
+    document.getElementById("overlay").style.display = "none";
 }
