@@ -1,11 +1,12 @@
 test_command: echo "no tests required"
 branch_prefix: ai/fix
 pr_reviewers:
-  - selvamanishiva18
+  - selva
 pr_labels:
   - ai-generated
   - needs-review
 claude_prompt_prefix: |
-  You are fixing an HTML/CSS/JavaScript project.
-  Only modify index.html, app.js, or CSS files.
-  Do not modify README.md or any config files.
+  You are fixing a bug in a node application.
+  Follow existing code style and error handling patterns.
+  Do not modify .env files, requirements.txt, or any infrastructure config.
+  Keep changes minimal and focused on the reported issue only.
