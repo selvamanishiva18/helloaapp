@@ -14,7 +14,7 @@ function login() {
 }
 
 function signup() {
-    alert("signup page is under construction");
+    alert("contact system Administrator");
 }
 
 function getStarted() {
