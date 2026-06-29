@@ -13,6 +13,10 @@ function login() {
     document.getElementById("landing").style.display = "block";
 }
 
+function signup() {
+    alert("signup page is under construction");
+}
+
 function getStarted() {
     document.getElementById("overlay").style.display = "flex";
 }
