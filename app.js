@@ -17,6 +17,10 @@ function signup() {
     alert("contact system Administrator");
 }
 
+function forgotPassword() {
+    alert("contact system Administrator to reset your password");
+}
+
 function getStarted() {
     document.getElementById("overlay").style.display = "flex";
 }
